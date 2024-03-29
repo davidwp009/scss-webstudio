@@ -13,19 +13,19 @@
     height: 120px;
     background-color: $button;
     border-radius: 4px;
-    background-image: url(../../img/antenna.webp);
+    background-image: url(../img/antenna.webp);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
 }
 .feature-list:nth-child(2)::before{
-    background-image: url(../../img/clock.webp)
+    background-image: url(../img/clock.webp)
 }
 .feature-list:nth-child(3)::before{
-    background-image: url(../../img/diagram.webp);
+    background-image: url(../img/diagram.webp);
 }
 .feature-list:nth-child(4)::before{
-    background-image: url(../../img/astronaut.webp);
+    background-image: url(../img/astronaut.webp);
 }
 .feature-item{
     display: flex;

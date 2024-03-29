@@ -17,6 +17,7 @@
     margin-right: 2px;
     margin-left: 2px;
     margin-top: 16px;
+    gap: 8px;
 }
 .foot-link{
     fill: $icon-color;
@@ -26,6 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .foot-link:hover,
 .foot-link:focus{
@@ -39,9 +41,8 @@
 .send{
     width: 24px;
     height: 24px;
-    display: flex;
-    align-items: center;
-    color: $main-title;
+    margin-left: 10px;
+    fill: $main-title;
 }
 .form{
     width: 358px;
@@ -55,6 +56,16 @@
     width: 200px;
     height: 50px;
     background-color: $header-web;
+    border: none;
+    border-radius: 4px;
+    line-height: 1.87;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
 }
 .sub{
     font-size: 16px;
@@ -66,4 +77,40 @@
     width: 231px;
     height: 21px;
     color: $main-title;
+}
+.white{
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+}
+.footer-item{
+    margin-top: 20px;
+}
+.footer-list{
+    margin-bottom: 9px;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.footer-form-fild{
+    display: flex;
+}
+.footer-input{
+    height: 50px;
+    width: 358px;
+    padding-left: 16px;
+    color: #fff;
+    background-color: $footer-background;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
