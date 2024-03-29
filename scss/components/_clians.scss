@@ -22,7 +22,7 @@
     justify-content: center;
 }
 .always-item:hover{
-    border-radius: $header-web;
+    border: 1px solid $header-web;
 }
 .always-item:hover .always-list{
     fill: $header-web;

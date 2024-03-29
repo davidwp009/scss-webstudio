@@ -14,11 +14,14 @@
     color: $main-title;
     font-size: 16px;
     font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 .butt-list{
     display: block;
     align-items: center;
-    margin-left: 8px;
+    
 }
 .butt-item{
     background: $button;
@@ -30,11 +33,18 @@
     line-height: 162%;
     cursor: pointer;
     font-family:'Roboto', sans-serif;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.butt-item:hover{
+    background-color: $header-web;
+    color: #fff;
+}
+
 .butt{
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 8px;
        
 }
 .picture{
@@ -60,6 +70,10 @@
 .portfolio-item{
        display: flex;
        flex-direction: column;
+       margin-bottom: 30px;
+}
+.portfolio-item:hover{
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%), 1px 4px 6px rgb(0 0 0 / 16%);
 }
 .portfolio-item:hover .product-action{
     opacity: 1;
@@ -94,4 +108,11 @@
     padding-right: 24px;
     line-height: 187%;
     align-items: flex-start;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
