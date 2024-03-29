@@ -1,21 +1,21 @@
-.what-we-do{
+.work{
     background-color: $main-title;
     padding-bottom: 94px;
 }
-.what-we-do-item{
+.work__title{
     font-size: 36px;
     font-weight: 700;
     color: $nav;
     margin-bottom: 50px;
     text-align: center;
 }
-.what-we-do-list{
+.work__list{
     @include flex();
 }
-.activity{
+.work__item{
     position: relative;
 }
-.activity-subtitle{
+.work__subtitle{
     position: absolute;
     bottom: 3px;
     color: $main-title;
@@ -31,7 +31,7 @@
     width: 100%;
     background-color: rgba(47, 48, 58, 0.80);;
 }
-.img{
+.work__img{
     width: 370px;
     height: 294px;
     flex-shrink: 0;

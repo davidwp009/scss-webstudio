@@ -1,17 +1,17 @@
-.always{
+.clians__list{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 66px;
     margin-bottom: 110px;
 }
-.always-box{
+.clians__title{
     display: flex;
     justify-content: center;
     font-size: 36px;
     margin-top: 94px;
 }
-.always-item{
+.clians__link{
     width: 170px;
     height: 92px;
     border-radius: 4px;
@@ -22,14 +22,14 @@
     justify-content: center;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fiil 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.always-item:hover{
+.clians__link:hover{
     border: 1px solid $header-web;
 }
-.always-item:hover .always-list{
+.clians__link:hover .clians__icon{
     fill: $header-web;
     border-color: $header-web;
 }
-.always-list{
+.clians__icon{
     width: 106px;
     height: 60px;
 }

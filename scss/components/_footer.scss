@@ -3,7 +3,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.footer-wrap{
+.footer__wrap{
     @include flex();
 }
 .foot-icon{
@@ -74,25 +74,25 @@
     align-items: center;
     color: $main-title;
 }
-.address{
+.footer__address{
     width: 231px;
     height: 21px;
     color: $main-title;
 }
-.white{
+.footer__white{
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
     color: #fff;
     font-family: "Raleway", sans-serif;
 }
-.footer-item{
+.footer__item{
     margin-top: 20px;
 }
-.footer-list{
+.footer__list{
     margin-bottom: 9px;
 }
-.footer-title{
+.footer__title{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;

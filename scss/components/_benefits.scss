@@ -1,12 +1,12 @@
-.feature{
+.benefits{
     padding-bottom: 94px;
     padding-top: 94px;
 }
-.feature-list{
+.benefits__list{
     width: 270px;
     background-color: $main-title;
 }
-.feature-list::before{
+.benefits__list::before{
     content: '';
     display: block;
     width: 100%;
@@ -18,20 +18,20 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-.feature-list:nth-child(2)::before{
+.benefits__list:nth-child(2)::before{
     background-image: url(../img/clock.webp)
 }
-.feature-list:nth-child(3)::before{
+.benefits__list:nth-child(3)::before{
     background-image: url(../img/diagram.webp);
 }
-.feature-list:nth-child(4)::before{
+.benefits__list:nth-child(4)::before{
     background-image: url(../img/astronaut.webp);
 }
-.feature-item{
+.benefits__item{
     display: flex;
     justify-content: space-between ;
 }
-.fact{
+.benefits__title{
     font-size: 14px;
     font-weight: 700;
     color: $nav;
@@ -40,7 +40,7 @@
     margin-top: 30px;
     text-transform: uppercase;
 }
-.true{
+.benefits__text{
     font-size: 14px;
     font-weight: 400;
     color: $nav-number;
