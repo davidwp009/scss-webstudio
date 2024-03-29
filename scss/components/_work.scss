@@ -10,8 +10,7 @@
     text-align: center;
 }
 .what-we-do-list{
-     display: flex;
-     justify-content: space-between;
+    @include flex();
 }
 .activity{
     position: relative;

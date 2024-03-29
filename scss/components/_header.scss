@@ -28,8 +28,7 @@
     }
     .site-nav{
         width: 281px;
-        display: flex;
-        justify-content: space-between;
+        @include flex();
     }
     .site-nav-link{
         color:$nav;
@@ -81,8 +80,7 @@
         align-items: center;
     }
     .header-wrap{
-        display: flex;
-        justify-content: space-between;
+        @include flex();
         align-items: center;
     }
     .logo{
