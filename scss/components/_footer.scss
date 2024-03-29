@@ -1,0 +1,69 @@
+.footer{
+    background-color: $footer-background;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-icon{
+    width: 20px;
+    height: 20px;
+}
+.foot-list{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-top: 16px;
+}
+.foot-link{
+    fill: $icon-color;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-link:hover,
+.foot-link:focus{
+    fill: $icon-color;
+    background-color: $header-web;
+}
+.foot-text{
+    font-size: 14px;
+    color: $main-title;
+}
+.send{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    color: $main-title;
+}
+.form{
+    width: 358px;
+    height: 50px;
+}
+.send-box{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    background-color: $header-web;
+}
+.sub{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: $main-title;
+}
+.address{
+    width: 231px;
+    height: 21px;
+    color: $main-title;
+}

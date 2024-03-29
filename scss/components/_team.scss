@@ -1,0 +1,69 @@
+.work{
+    background-color:$button;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.personalization{
+    font-size: 36px;
+    font-weight: 700;
+    color:$nav;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.personalization-us{
+    display: flex;
+    justify-content: space-between;
+}
+.social-icon{
+    width: 20px;
+    height: 20px;
+}
+.social-list{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 32px;
+    margin-left: 32px;
+    margin-top: 16px;
+}
+.social-link{
+    fill: $icon-color;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-link:hover,
+.social-link:focus{
+    fill:$button;
+    background-color:$header-web;
+}
+.work-do{
+    font-size: 16px;
+    font-weight: 400;
+    color: $nav-number;
+}
+.photo{
+    width: 270px;
+    height: 260px;
+    margin-bottom: 30px;
+}
+.personalization-list{
+    text-align: center;
+}
+.personalization-who{
+    width: 270px;
+    padding-bottom: 30px;
+    background-color: $main-title;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+}
+.person{
+    font-size: 16px;
+    font-weight: 500;
+    color: $nav;
+    margin-bottom: 10px;
+}
