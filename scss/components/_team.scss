@@ -1,18 +1,14 @@
 .team{
     background-color:$button;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .team__title{
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
     color:$nav;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: center;
-}
-.team__list{
-    display: flex;
-    justify-content: space-between;
 }
 .team__social-icon{
     width: 20px;
@@ -40,26 +36,32 @@
     fill:$button;
     background-color:$header-web;
 }
+.team__title{
+    font-size: 16px;
+    font-weight: 700;
+    color:$nav;
+    margin-bottom: 10px;
+    text-align: center;
+}
 .team__position{
     font-size: 16px;
     font-weight: 400;
     color: $nav-number;
 }
 .team__photo{
-    width: 270px;
-    height: 260px;
-    margin-bottom: 30px;
-}
-.team__wrap{
-    text-align: center;
+    width: 290px;
 }
 .team__item{
-    width: 270px;
+    width: 290px;
     padding-bottom: 30px;
     background-color: $main-title;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-
+    margin-bottom: 30px;
+}
+.team__wrap{
+    text-align: center;
+    padding-top: 30px;
 }
 .team__name{
     font-size: 16px;
@@ -67,3 +69,72 @@
     color: $nav;
     margin-bottom: 10px;
 }
+.team__title{
+    font-size: 28px;
+    font-weight: 700;
+    color:$nav;
+    margin-bottom: 30px;
+    text-align: center;
+}
+@media screen and (min-width:480px) {
+    .team__item{
+        width: 450px;
+    }
+    .team__photo{
+        width: 450px;
+    }
+}
+@media screen and (min-width:768px) {
+    .team__list{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .team__item{
+        width: 354px;
+    }
+    .team__photo{
+        width: 354px;
+    }
+}
+@media screen and (min-width:1200px) {
+    .team__list{
+        flex-wrap: nowrap;
+    }
+    .team__item{
+        width: 270px;
+    }
+    .team__photo{
+        width: 270px;
+    }
+    .team__title{
+        font-size: 36px;
+        margin-bottom: 50px;
+    }
+}
+/*.team{
+    background-color:$button;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.team__title{
+    font-size: 36px;
+    font-weight: 700;
+    color:$nav;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.team__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.team__photo{
+    width: 270px;
+    height: 260px;
+    margin-bottom: 30px;
+}
+
+
+*/
