@@ -1,0 +1,118 @@
+.inf{
+    width: 231px;
+    height: 21px;
+    color: $nav-number;  
+}
+.main{
+    background-color: $main-title;
+}
+.butt-item-tt{
+    width: 73px;
+    height: 38px;
+    flex-shrink: 0;
+    background-color: $header-web;
+    color: $main-title;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.butt-list{
+    display: block;
+    align-items: center;
+    
+}
+.butt-item{
+    background: $button;
+    font-weight: 500px; 
+    border-radius:4px;
+    font-size: 16px;
+    border: none;
+    padding: 6px 22px;
+    line-height: 162%;
+    cursor: pointer;
+    font-family:'Roboto', sans-serif;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.butt-item:hover{
+    background-color: $header-web;
+    color: #fff;
+}
+
+.butt{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 8px;
+       
+}
+.picture{
+    width: 370px;
+    height: 294px;
+    flex-shrink: 0;
+}
+.portfolio{
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+}
+.portfolio-do{
+    color: $nav;
+    font-size: 18px;
+    font-weight: 700;
+}
+.portfolio-link{
+    color: $li-p;
+    font-size: 16px;
+    font-weight: 400;
+}
+.portfolio-item{
+       display: flex;
+       flex-direction: column;
+       margin-bottom: 30px;
+}
+.portfolio-item:hover{
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%), 1px 4px 6px rgb(0 0 0 / 16%);
+}
+.portfolio-item:hover .product-action{
+    opacity: 1;
+    transform: translateY(0%);
+}
+.portfolio:nth-child(1){
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+
+}
+.product-wrap{
+    position: relative;
+    overflow: hidden;
+}
+.product-action{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 63px 24px;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    background-color: rgba(33, 150, 243, 0.9);
+    color: $main-title;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 250ms linear, opacity 250ms linear;
+}
+.linm{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    line-height: 187%;
+    align-items: flex-start;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
