@@ -1,21 +1,5 @@
-<<<<<<< HEAD
-.button{
-    display: inline-block;
-    padding: 10px 50px;
-    background-color: lightgray;
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
-}
-.button-success{
-    @extend .button;
-    background-color: green;
-}
-.button-error{
-    @extend .button;
-    background-color: red;
-}
-=======
+
+
 .team{
     background-color:$button;
     padding-top: 60px;
@@ -156,4 +140,4 @@
 
 
 */
->>>>>>> ec1cbb1e81ea1cb19d2f83dcab320807875388b6
+
