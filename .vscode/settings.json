@@ -1,4 +1,5 @@
-{     "liveSassCompile.settings.formats": [ 
+{     
+    "liveSassCompile.settings.formats": [ 
         {             
             "format": "expanded", 
             "extensionName": ".css",            
@@ -18,5 +19,6 @@
     "liveSassCompile.settings.autoprefix": [ 
         "> 1%", 
         "last 2 versions"
-    ] 
+    ],
+    "liveServer.settings.port": 5501
 }

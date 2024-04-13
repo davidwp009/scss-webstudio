@@ -1,0 +1,16 @@
+.button{
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: lightgray;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.button-success{
+    @extend .button;
+    background-color: green;
+}
+.button-error{
+    @extend .button;
+    background-color: red;
+}
