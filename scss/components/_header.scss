@@ -59,9 +59,8 @@
            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
        }
        .contacts{
-           font-size: 14px;
-           font-weight: 500;
-           display: flex;
+           display: none;
+
        }
        .contacts .contact-link:hover{
            color:$header-web;
@@ -77,7 +76,8 @@
            margin-right: 10px; 
        }
        .mail{
-           margin-right: 50px;
+           
+           margin-bottom: 10px;
        }
        .site-nav-link.current::after{
            content: "";
@@ -101,17 +101,35 @@
        }
     @media screen and (min-width:768px) {
         .navigation{
-            display: flex;
-            align-items: center;
+            display: block;
             font-weight: 500;
             font-size: 14px;
 
+        }
+        .contacts{
+            display: flex;
+            flex-direction: column;
+            font-size: 14px;
+           font-weight: 500;
         }
     }
     @media screen and (min-width:1200px){
         .navigation{
             margin-right: 180px;
+            align-items: center;
         }
+        .mail{
+            margin-right: 50px;
+            margin-bottom: 0;
+        }
+        .contacts{
+            flex-direction: row;
+            align-items: center;
+        }
+        .header-wrap{
+            align-items: center;
+        }
+        
     }
 
     /*mobile-menu*/
@@ -146,10 +164,10 @@
         cursor: pointer;
         border: none;
     }
-    .navigation,
+    /*.navigation,
     .site-nav{
         display: none;
-    }
+    }*/
     .menu-button__open{
         padding: 0;
         background-color: transparent;
